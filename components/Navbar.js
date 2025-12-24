@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 export default function Navbar(){
   return (
     <header style={{ position: 'relative', top: '17px' }}>
@@ -8,7 +6,7 @@ export default function Navbar(){
           {/* Logo - left end */}
           <div className="flex items-center">
               <div style={{ width: '20px', height: '32px', opacity: 1 }}>
-              <Image src="/images/setapp-icon.png" alt="logo" width={20} height={32} priority={false} />
+              <img src="/images/setapp-icon.png" alt="logo" width={20} height={32} />
             </div>
           </div>
 
@@ -30,8 +28,8 @@ export default function Navbar(){
             {/* Flag + Sign In + Try free */}
             <div className="flex items-center gap-4">
               <div className="w-6 h-5">
-                <Image src="/images/us-flag.png" alt="US Flag" width={24} height={24} priority={false} />
-              </div>
+                  <img src="/images/us-flag.png" alt="US Flag" width={24} height={24} />
+                </div>
               <button className="text-gray-300 hover:text-white" style={{ fontFamily: 'Avenir Next, system-ui, sans-serif', fontWeight: 500, fontSize: '14px', letterSpacing: '0.9px' }}>Sign In</button>
               <button className="px-5 py-2 rounded-md bg-transparent border border-gray-400 text-white hover:bg-white hover:text-bg-dark transition" style={{ fontFamily: 'Avenir Next, system-ui, sans-serif', fontWeight: 500, fontSize: '14px', letterSpacing: '0.9px' }}>Try free</button>
             </div>
