@@ -4,12 +4,12 @@ export default function Testimonials() {
   return (
     <>
     <section className="py-6 relative">
-      <div className="flex justify-center relative z-10">
+      <div className="flex relative z-10">
         {/* Video Testimonial */}
-        <div className="relative overflow-hidden" style={{ backgroundColor: '#765070', width: '1355px', height: '720px', opacity: 1, borderRadius: '20px' }}>
+        <div className="relative overflow-hidden" style={{ backgroundColor: '#765070', width: '100%', height: '720px', opacity: 1, borderRadius: '20px', marginLeft: '40px', marginRight: '40px', paddingLeft: '120px', paddingRight: '120px' }}>
           <div className="flex items-center h-full relative">
             {/* Left content */}
-            <div className="absolute left-0 top-0 h-full flex flex-col justify-center" style={{ paddingLeft: '50px', paddingRight: '0px', width: '500px' }}>
+            <div className="absolute left-0 top-0 h-full flex flex-col justify-center" style={{ paddingLeft: '0px', paddingRight: '0px', width: '500px' }}>
               <p className="text-white mb-6" style={{ fontFamily: 'Avenir Next, system-ui, sans-serif', fontWeight: 500, fontSize: '26px', lineHeight: '40.04px', letterSpacing: '0%' }}>
                 Musicians like Jason use Setapp to push the limits of their creativity, dancing through tasks for more time to play.
               </p>
@@ -67,17 +67,17 @@ export default function Testimonials() {
               <div className="flex items-center gap-10">
                 <p className="max-w-xs" style={{ fontFamily: 'Avenir Next, system-ui, sans-serif', fontWeight: 400, fontSize: '18px', lineHeight: '32.04px', letterSpacing: '0%' }}>What you say about how Setapp<br/>powers you up.</p>
                 <div className="flex gap-3">
+                    <a href="#" className="w-11 h-11 rounded-full flex items-center justify-center hover:scale-105 transition">
+                      <Image src="/images/Item ⏵ Link - Setapp on Facebook ⏵ SVG.png" alt="Facebook" width={40} height={40} />
+                    </a>
                   <a href="#" className="w-11 h-11 rounded-full flex items-center justify-center hover:scale-105 transition">
-                    <Image src="/images/Item ⏵ Link - Setapp on Facebook ⏵ SVG.png" alt="Facebook" width={40} height={40} />
+                      <Image src="/images/Frame.png" alt="Twitter" width={40} height={40} />
                   </a>
                   <a href="#" className="w-11 h-11 rounded-full flex items-center justify-center hover:scale-105 transition">
-                    <Image src="/images/Frame.png" alt="Twitter" width={40} height={40} />
+                      <Image src="/images/Frame (1).png" alt="Instagram" width={40} height={40} />
                   </a>
                   <a href="#" className="w-11 h-11 rounded-full flex items-center justify-center hover:scale-105 transition">
-                    <Image src="/images/Frame (1).png" alt="Instagram" width={40} height={40} />
-                  </a>
-                  <a href="#" className="w-11 h-11 rounded-full flex items-center justify-center hover:scale-105 transition">
-                    <Image src="/images/Frame (2).png" alt="YouTube" width={40} height={40} />
+                      <Image src="/images/Frame (2).png" alt="YouTube" width={40} height={40} />
                   </a>
                 </div>
               </div>
@@ -100,7 +100,7 @@ export default function Testimonials() {
           {/* Testimonial Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             {/* Card 1 */}
-            <div style={{ width: '380px', height: '422.44px', opacity: 1, border: '1px solid #E5E5E5', borderRadius: '15px', overflow: 'hidden', backgroundColor: '#F5F5F5', padding: '8px', display: 'flex', flexDirection: 'column' }}>
+            <div style={{ width: '380px', height: '422.44px', opacity: 1, border: '1px solid #E5E5E5', borderRadius: '15px', overflow: 'hidden', backgroundColor: '#F5F5F5', padding: '4px', display: 'flex', flexDirection: 'column' }}>
               <div className="text-white flex items-center flex-1" style={{ backgroundColor: '#71719A', borderRadius: '12px', padding: '24px' }}>
                 <p style={{ fontFamily: 'Avenir Next, system-ui, sans-serif', fontWeight: 500, fontSize: '26px', lineHeight: '36.92px', letterSpacing: '0%' }}>
                   Have been using Setapp for almost two years, and I have to say it's the best and the most cost-effective way of having apps on Mac.
@@ -118,7 +118,7 @@ export default function Testimonials() {
             </div>
 
             {/* Card 2 */}
-            <div style={{ width: '380px', height: '422.44px', opacity: 1, border: '1px solid #E5E5E5', borderRadius: '15px', overflow: 'hidden', backgroundColor: '#F5F5F5', padding: '8px', display: 'flex', flexDirection: 'column' }}>
+            <div style={{ width: '380px', height: '422.44px', opacity: 1, border: '1px solid #E5E5E5', borderRadius: '15px', overflow: 'hidden', backgroundColor: '#F5F5F5', padding: '4px', display: 'flex', flexDirection: 'column' }}>
               <div className="text-white flex items-center flex-1" style={{ backgroundColor: '#D9AE89', borderRadius: '12px', padding: '24px' }}>
                 <p style={{ fontFamily: 'Avenir Next, system-ui, sans-serif', fontWeight: 500, fontSize: '26px', lineHeight: '36.92px', letterSpacing: '0%' }}>
                   My favorites ❤️ from @Setapp Ulysses, CleanMyMac X, Paste, MindNode, Swift Publisher.
@@ -136,7 +136,7 @@ export default function Testimonials() {
             </div>
 
             {/* Card 3 */}
-            <div style={{ width: '380px', height: '422.44px', opacity: 1, border: '1px solid #E5E5E5', borderRadius: '15px', overflow: 'hidden', backgroundColor: '#F5F5F5', padding: '8px', display: 'flex', flexDirection: 'column' }}>
+            <div style={{ width: '380px', height: '422.44px', opacity: 1, border: '1px solid #E5E5E5', borderRadius: '15px', overflow: 'hidden', backgroundColor: '#F5F5F5', padding: '4px', display: 'flex', flexDirection: 'column' }}>
               <div className="text-white flex items-center flex-1" style={{ backgroundColor: '#765070', borderRadius: '12px', padding: '24px' }}>
                 <p style={{ fontFamily: 'Avenir Next, system-ui, sans-serif', fontWeight: 500, fontSize: '26px', lineHeight: '36.92px', letterSpacing: '0%' }}>
                   For those of you that wonder where I discover/get all the awesome apps for my Mac that I use, a lot of them are from Setapp!

@@ -7,7 +7,7 @@ export default function Navbar(){
         <div className="flex items-center justify-between" style={{ width: '1440px', height: '40px', opacity: 1 }}>
           {/* Logo - left end */}
           <div className="flex items-center">
-            <div style={{ width: '20px', height: '32px', opacity: 1 }}>
+              <div style={{ width: '20px', height: '32px', opacity: 1 }}>
               <Image src="/images/SVG.png" alt="logo" width={20} height={32} priority={false} />
             </div>
           </div>

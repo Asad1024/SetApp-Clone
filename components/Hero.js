@@ -7,7 +7,7 @@ export default function Hero(){
       <div className="z-20 w-full">
         <div className="container mx-auto px-6">
           <div className="flex flex-col items-center">
-            <div className="mb-14 w-21 h-20" style={{ marginRight: '20px' }}>
+              <div className="mb-14 w-21 h-20" style={{ marginRight: '20px' }}>
               <Image src="/images/setapp-icon-birthday-15.svg.png" alt="setapp" width={128} height={128} />
             </div>
 
