@@ -16,11 +16,9 @@ export default function Testimonials() {
               <p className="text-gray-300 mb-10" style={{ fontFamily: 'Avenir Next, system-ui, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '100%', letterSpacing: '0%' }}>
                 Jason Staczek
               </p>
-              {/* Play button */}
-              <button className="bg-white rounded-full flex items-center justify-center hover:bg-gray-100 transition" style={{ width: '74px', height: '74px', opacity: 1, paddingTop: '29.02px', paddingRight: '29.34px', paddingBottom: '29.02px', paddingLeft: '31.7px', borderRadius: '37px' }}>
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M8 5V19L18 12L8 5Z" fill="#765070" />
-                </svg>
+              {/* Watch now button */}
+              <button className="bg-white rounded-full flex items-center justify-center hover:bg-gray-100 transition" style={{ width: '74px', height: '74px', opacity: 1, borderRadius: '37px' }}>
+                <Image src="/images/Button - Watch now.png" alt="Watch now" width={48} height={48} />
               </button>
             </div>
             
@@ -32,13 +30,13 @@ export default function Testimonials() {
           
           {/* Navigation arrows */}
           <div className="absolute top-6 right-6 flex gap-3 z-20">
-            <button className="w-10 h-10 flex items-center justify-center hover:opacity-80 transition">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <button className="w-16 h-16 flex items-center justify-center hover:opacity-80 transition">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M15 18L9 12L15 6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </button>
-            <button className="w-10 h-10 flex items-center justify-center hover:opacity-80 transition">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <button className="w-16 h-16 flex items-center justify-center hover:opacity-80 transition">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M9 18L15 12L9 6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </button>
@@ -85,13 +83,13 @@ export default function Testimonials() {
               </div>
               {/* Navigation arrows below social icons */}
               <div className="flex gap-3">
-                <button className="w-11 h-11 flex items-center justify-center hover:opacity-80 transition">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <button className="w-16 h-16 flex items-center justify-center hover:opacity-80 transition">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M15 18L9 12L15 6" stroke="#111827" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </button>
-                <button className="w-11 h-11 flex items-center justify-center hover:opacity-80 transition">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <button className="w-16 h-16 flex items-center justify-center hover:opacity-80 transition">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M9 18L15 12L9 6" stroke="#111827" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </button>
