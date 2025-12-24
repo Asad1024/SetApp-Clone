@@ -35,7 +35,7 @@ export default function Features() {
               <div className="px-8 pt-6 pb-3">
                 <Image src="/images/5ecec2c860e197b0c252693fa559e428bb28dd4a.png" alt="Code editor" width={580} height={400} className="rounded-xl w-full" />
               </div>
-              <div className="px-8 flex items-start gap-4">
+              <div className="px-8 pb-8 flex items-start gap-4">
                 <div className="w-14 h-14 rounded-2xl flex items-center justify-center flex-shrink-0">
                   <Image src="/images/5c27d428a3e97ddc13f8ebcef94454f36d2aab18.png" alt="Icon" width={56} height={56} />
                 </div>
@@ -48,7 +48,7 @@ export default function Features() {
 
             {/* Right Card - Join meetings */}
             <div className="overflow-hidden flex flex-col" style={{ backgroundColor: '#384C75', width: '580px', height: '632.6px', opacity: 1, borderRadius: '20px' }}>
-              <div className="pt-6 px-8 pb-3 flex items-start gap-4">
+              <div className="pt-12 px-8 pb-3 flex items-start gap-4">
                 <div className="w-14 h-14 rounded-2xl flex items-center justify-center flex-shrink-0">
                   <Image src="/images/daecfd6fc447d2a6b62fc72cbb5af2c7ac6bee48.png" alt="Icon" width={56} height={56} />
                 </div>
