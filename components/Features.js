@@ -13,7 +13,7 @@ export default function Features() {
         {/* Feature Cards Grid */}
         <div className="space-y-6 mb-12">
           {/* Top Card - Keep your Mac clean */}
-          <div className="rounded-[20px] overflow-hidden relative flex flex-col" style={{ backgroundColor: '#DF96AE', width: '1180px', height: '605px' }}>
+          <div className="rounded-[20px] overflow-hidden relative flex flex-col" style={{ backgroundColor: '#DF96AE', maxWidth: '1180px', minHeight: '605px', margin: '0 auto' }}>
             <div className="px-10 pt-[60px] flex items-start gap-4 pb-6">
               <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center flex-shrink-0">
                 <Image src="/images/cleanmymac-icon.png" alt="CleanMyMac" width={48} height={48} />
@@ -31,7 +31,7 @@ export default function Features() {
           {/* Bottom Two Cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Left Card - Write code */}
-            <div className="overflow-hidden flex flex-col" style={{ backgroundColor: '#F4F0E4', width: '580px', height: '632.6px', justifyContent: 'space-between', opacity: 1, paddingBottom: '59.54px', borderRadius: '20px' }}>
+            <div className="overflow-hidden flex flex-col" style={{ backgroundColor: '#F4F0E4', maxWidth: '580px', minHeight: '632.6px', justifyContent: 'space-between', opacity: 1, paddingBottom: '59.54px', borderRadius: '20px', margin: '0 auto' }}>
               <div className="px-8 pt-6 pb-3">
                 <Image src="/images/code-editor.png" alt="Code editor" width={580} height={400} className="rounded-xl w-full" />
               </div>
@@ -47,7 +47,7 @@ export default function Features() {
             </div>
 
             {/* Right Card - Join meetings */}
-            <div className="overflow-hidden flex flex-col" style={{ backgroundColor: '#384C75', width: '580px', height: '632.6px', opacity: 1, borderRadius: '20px' }}>
+            <div className="overflow-hidden flex flex-col" style={{ backgroundColor: '#384C75', maxWidth: '580px', minHeight: '632.6px', opacity: 1, borderRadius: '20px', margin: '0 auto' }}>
               <div className="pt-12 px-8 pb-3 flex items-start gap-4">
                 <div className="w-14 h-14 rounded-2xl flex items-center justify-center flex-shrink-0">
                   <Image src="/images/meetings-icon.png" alt="Icon" width={56} height={56} />

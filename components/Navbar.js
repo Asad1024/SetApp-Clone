@@ -1,8 +1,8 @@
 export default function Navbar(){
   return (
     <header style={{ position: 'relative', top: '17px' }}>
-      <div className="flex justify-center">
-        <div className="flex items-center justify-between" style={{ width: '1440px', height: '40px', opacity: 1 }}>
+      <div className="container mx-auto px-6">
+        <div className="flex items-center justify-between" style={{ maxWidth: '1440px', height: '40px', opacity: 1, margin: '0 auto' }}>
           {/* Logo - left end */}
           <div className="flex items-center">
               <div style={{ width: '20px', height: '32px', opacity: 1 }}>

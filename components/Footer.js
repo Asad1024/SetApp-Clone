@@ -13,7 +13,7 @@ export default function Footer() {
       {/* CTA Section - with white bg and content starting from edge */}
       <div className="relative bg-white" style={{ paddingTop: '40px', paddingBottom: '40px' }}>
         <div className="flex">
-          <div className="bg-gray-50 relative z-10 flex flex-col justify-center" style={{ width: '100%', height: '587.59px', opacity: 1, paddingLeft: '120px', paddingRight: '120px', borderRadius: '20px', marginLeft: '40px', marginRight: '40px' }}>
+          <div className="bg-gray-50 relative z-10 flex flex-col justify-center" style={{ width: '100%', minHeight: '587.59px', opacity: 1, paddingLeft: 'clamp(40px, 8vw, 120px)', paddingRight: 'clamp(40px, 8vw, 120px)', borderRadius: '20px', marginLeft: '40px', marginRight: '40px' }}>
             <div className="flex flex-col">
               <div className="mb-8">
                 <Image src="/images/setapp-logo.png" alt="Setapp" width={60} height={60} />
@@ -22,10 +22,10 @@ export default function Footer() {
                 Superpowers starting $9.99/month.<br/>Free for 7 days.
               </h2>
               <div className="flex gap-4">
-                <button className="bg-gray-900 text-white font-medium hover:bg-gray-800 transition flex items-center justify-center" style={{ width: '193.41px', height: '50px', opacity: 1, borderRadius: '6px', fontSize: '16px' }}>
+                <button className="bg-gray-900 text-white font-medium hover:bg-gray-800 transition flex items-center justify-center px-6" style={{ minWidth: '193.41px', height: '50px', opacity: 1, borderRadius: '6px', fontSize: '16px' }}>
                   Get started now
                 </button>
-                <button className="bg-transparent text-gray-900 font-medium border-2 border-gray-300 hover:border-gray-400 transition flex items-center justify-center" style={{ width: '193.41px', height: '50px', opacity: 1, borderRadius: '6px', fontSize: '16px' }}>
+                <button className="bg-transparent text-gray-900 font-medium border-2 border-gray-300 hover:border-gray-400 transition flex items-center justify-center px-6" style={{ minWidth: '193.41px', height: '50px', opacity: 1, borderRadius: '6px', fontSize: '16px' }}>
                   More about Setapp
                 </button>
               </div>
@@ -38,8 +38,8 @@ export default function Footer() {
 
       {/* Footer Links */}
       <div className="text-gray-400" style={{ backgroundColor: '#2B2D32', paddingTop: '60px', paddingBottom: '40px' }}>
-        <div className="mx-auto" style={{ paddingLeft: '80px', paddingRight: '80px' }}>
-          <div className="grid grid-cols-4 gap-16 mb-16">
+        <div className="mx-auto" style={{ paddingLeft: 'clamp(40px, 6vw, 80px)', paddingRight: 'clamp(40px, 6vw, 80px)' }}>
+          <div className="grid grid-cols-4 gap-8 lg:gap-16 mb-16">
             {/* Logo and Newsletter */}
             <div>
                 <div className="flex flex-col" style={{ maxWidth: '760px' }}>
@@ -71,7 +71,7 @@ export default function Footer() {
             </div>
 
             {/* Column 1 */}
-            <div style={{ marginLeft: '120px' }}>
+            <div>
               <ul className="space-y-3.5 text-sm text-gray-300">
                 <li><a href="#" className="hover:text-white transition">Home</a></li>
                 <li><a href="#" className="hover:text-white transition">How it Works</a></li>
@@ -85,7 +85,7 @@ export default function Footer() {
             </div>
 
             {/* Column 2 */}
-            <div style={{ marginLeft: '120px' }}>
+            <div>
               <ul className="space-y-3.5 text-sm text-gray-300">
                 <li><a href="#" className="hover:text-white transition">About</a></li>
                 <li><a href="#" className="hover:text-white transition">Support</a></li>
@@ -101,7 +101,7 @@ export default function Footer() {
             </div>
 
             {/* Column 3 */}
-            <div style={{ marginLeft: '120px' }}>
+            <div>
               <ul className="space-y-3.5 text-sm text-gray-300">
                 <li><a href="#" className="hover:text-white transition">Getting started with Setapp</a></li>
                 <li><a href="#" className="hover:text-white transition">Remote access to other Mac</a></li>
