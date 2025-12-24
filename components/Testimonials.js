@@ -18,13 +18,13 @@ export default function Testimonials() {
               </p>
               {/* Watch now button */}
               <button className="bg-white rounded-full flex items-center justify-center hover:bg-gray-100 transition" style={{ width: '74px', height: '74px', opacity: 1, borderRadius: '37px' }}>
-                <Image src="/images/Button - Watch now.png" alt="Watch now" width={48} height={48} />
+                <Image src="/images/button-watch-now.png" alt="Watch now" width={48} height={48} />
               </button>
             </div>
             
             {/* Right image */}
-            <div className="absolute right-0 bottom-0 overflow-hidden" style={{ width: '670px', height: '690px', opacity: 1 }}>
-              <Image src="/images/21a6be253fb14ba0748b3310c64b39b8ff20bbf9.png" alt="Jason Staczek testimonial" width={670} height={690} className="object-cover object-top" style={{ width: '670px', height: '690px' }} />
+              <div className="absolute right-0 bottom-0 overflow-hidden" style={{ width: '670px', height: '690px', opacity: 1 }}>
+              <Image src="/images/testimonial-1.png" alt="Jason Staczek testimonial" width={670} height={690} className="object-cover object-top" style={{ width: '670px', height: '690px' }} />
             </div>
           </div>
           
@@ -68,16 +68,16 @@ export default function Testimonials() {
                 <p className="max-w-xs" style={{ fontFamily: 'Avenir Next, system-ui, sans-serif', fontWeight: 400, fontSize: '18px', lineHeight: '32.04px', letterSpacing: '0%' }}>What you say about how Setapp<br/>powers you up.</p>
                 <div className="flex gap-3">
                     <a href="#" className="w-11 h-11 rounded-full flex items-center justify-center hover:scale-105 transition">
-                      <Image src="/images/Item ⏵ Link - Setapp on Facebook ⏵ SVG.png" alt="Facebook" width={40} height={40} />
+                      <Image src="/images/facebook-icon.png" alt="Facebook" width={40} height={40} />
                     </a>
                   <a href="#" className="w-11 h-11 rounded-full flex items-center justify-center hover:scale-105 transition">
-                      <Image src="/images/Frame.png" alt="Twitter" width={40} height={40} />
+                        <Image src="/images/twitter-icon.png" alt="Twitter" width={40} height={40} />
                   </a>
                   <a href="#" className="w-11 h-11 rounded-full flex items-center justify-center hover:scale-105 transition">
-                      <Image src="/images/Frame (1).png" alt="Instagram" width={40} height={40} />
+                        <Image src="/images/instagram-icon.png" alt="Instagram" width={40} height={40} />
                   </a>
                   <a href="#" className="w-11 h-11 rounded-full flex items-center justify-center hover:scale-105 transition">
-                      <Image src="/images/Frame (2).png" alt="YouTube" width={40} height={40} />
+                        <Image src="/images/youtube-icon.png" alt="YouTube" width={40} height={40} />
                   </a>
                 </div>
               </div>
@@ -112,7 +112,7 @@ export default function Testimonials() {
                   <p className="text-gray-600" style={{ fontFamily: 'Avenir Next, system-ui, sans-serif', fontWeight: 400, fontSize: '14px', lineHeight: '20px' }}>@ArashPourhabibi</p>
                 </div>
                 <div className="flex items-center justify-center">
-                  <Image src="/images/Frame (3).png" alt="Twitter" width={20} height={20} />
+                  <Image src="/images/avatar-1.png" alt="Twitter" width={20} height={20} />
                 </div>
               </div>
             </div>
@@ -130,7 +130,7 @@ export default function Testimonials() {
                   <p className="text-gray-600" style={{ fontFamily: 'Avenir Next, system-ui, sans-serif', fontWeight: 400, fontSize: '14px', lineHeight: '20px' }}>@m741s</p>
                 </div>
                 <div className="flex items-center justify-center">
-                  <Image src="/images/SVG (1).png" alt="Instagram" width={20} height={20} />
+                  <Image src="/images/instagram-small.png" alt="Instagram" width={20} height={20} />
                 </div>
               </div>
             </div>
@@ -148,7 +148,7 @@ export default function Testimonials() {
                   <p className="text-gray-600" style={{ fontFamily: 'Avenir Next, system-ui, sans-serif', fontWeight: 400, fontSize: '14px', lineHeight: '20px' }}>@meredith.sweet.silberstein</p>
                 </div>
                 <div className="flex items-center justify-center">
-                  <Image src="/images/Vector.png" alt="Facebook" width={12} height={12} />
+                  <Image src="/images/facebook-small.png" alt="Facebook" width={12} height={12} />
                 </div>
               </div>
             </div>

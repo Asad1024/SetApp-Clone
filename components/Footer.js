@@ -16,7 +16,7 @@ export default function Footer() {
           <div className="bg-gray-50 relative z-10 flex flex-col justify-center" style={{ width: '100%', height: '587.59px', opacity: 1, paddingLeft: '120px', paddingRight: '120px', borderRadius: '20px', marginLeft: '40px', marginRight: '40px' }}>
             <div className="flex flex-col">
               <div className="mb-8">
-                <Image src="/images/setapp-logo.svg" alt="Setapp" width={60} height={60} />
+                <Image src="/images/setapp-logo.png" alt="Setapp" width={60} height={60} />
               </div>
               <h2 className="text-gray-900 mb-8" style={{ fontFamily: 'Avenir Next, system-ui, sans-serif', fontWeight: 600, fontSize: '46px', lineHeight: '59.8px', letterSpacing: '1.3px' }}>
                 Superpowers starting $9.99/month.<br/>Free for 7 days.
@@ -124,7 +124,7 @@ export default function Footer() {
               </div>
               <div style={{ marginLeft: 'auto' }}>
                 <button className="flex items-center gap-2 text-sm text-gray-300 hover:text-white transition" style={{ background: 'transparent' }}>
-                  <Image src="/images/Item.png" alt="US Flag" width={20} height={20} />
+                  <Image src="/images/us-flag.png" alt="US Flag" width={20} height={20} />
                   <span>English</span>
                   <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>

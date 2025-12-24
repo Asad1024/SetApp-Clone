@@ -30,7 +30,7 @@ export default function Navbar(){
             {/* Flag + Sign In + Try free */}
             <div className="flex items-center gap-4">
               <div className="w-6 h-5">
-                <Image src="/images/Item.png" alt="US Flag" width={24} height={24} priority={false} />
+                <Image src="/images/us-flag.png" alt="US Flag" width={24} height={24} priority={false} />
               </div>
               <button className="text-gray-300 hover:text-white" style={{ fontFamily: 'Avenir Next, system-ui, sans-serif', fontWeight: 500, fontSize: '14px', letterSpacing: '0.9px' }}>Sign In</button>
               <button className="px-5 py-2 rounded-md bg-transparent border border-gray-400 text-white hover:bg-white hover:text-bg-dark transition" style={{ fontFamily: 'Avenir Next, system-ui, sans-serif', fontWeight: 500, fontSize: '14px', letterSpacing: '0.9px' }}>Try free</button>
