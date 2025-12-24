@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg-dark: #2f2f31;
+}
+
+html,body,#__next{
+  height:100%;
+}
+
+body{
+  background:var(--bg-dark);
+  font-family: 'Poppins', system-ui, sans-serif;
+}
+
+.container{
+  max-width: 1200px;
+}
+
+/* Utilities for hero */
+.hero-title { letter-spacing: -0.02em; }
+.hero-price { letter-spacing: -0.02em; }
+
