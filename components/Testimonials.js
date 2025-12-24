@@ -100,55 +100,55 @@ export default function Testimonials() {
           {/* Testimonial Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             {/* Card 1 */}
-            <div style={{ width: '380px', height: '422.44px', opacity: 1, border: '1px solid #E5E5E5', borderRadius: '15px', overflow: 'hidden', backgroundColor: '#F5F5F5' }}>
-              <div className="p-12 text-white flex items-center" style={{ backgroundColor: '#71719A', height: '280px', borderTopLeftRadius: '15px', borderTopRightRadius: '15px' }}>
+            <div style={{ width: '380px', height: '422.44px', opacity: 1, border: '1px solid #E5E5E5', borderRadius: '15px', overflow: 'hidden', backgroundColor: '#F5F5F5', padding: '8px', display: 'flex', flexDirection: 'column' }}>
+              <div className="text-white flex items-center flex-1" style={{ backgroundColor: '#71719A', borderRadius: '12px', padding: '24px' }}>
                 <p style={{ fontFamily: 'Avenir Next, system-ui, sans-serif', fontWeight: 500, fontSize: '26px', lineHeight: '36.92px', letterSpacing: '0%' }}>
                   Have been using Setapp for almost two years, and I have to say it's the best and the most cost-effective way of having apps on Mac.
                 </p>
               </div>
-              <div className="px-8 py-8 flex items-center justify-between">
+              <div className="flex items-end justify-between" style={{ padding: '20px 16px' }}>
                 <div>
                   <p className="text-gray-900" style={{ fontFamily: 'Avenir Next, system-ui, sans-serif', fontWeight: 600, fontSize: '18px', lineHeight: '24px', marginBottom: '4px' }}>Arash Pourhabibi</p>
                   <p className="text-gray-600" style={{ fontFamily: 'Avenir Next, system-ui, sans-serif', fontWeight: 400, fontSize: '14px', lineHeight: '20px' }}>@ArashPourhabibi</p>
                 </div>
                 <div className="flex items-center justify-center">
-                  <Image src="/images/Frame.png" alt="Twitter" width={32} height={32} />
+                  <Image src="/images/Frame (3).png" alt="Twitter" width={20} height={20} />
                 </div>
               </div>
             </div>
 
             {/* Card 2 */}
-            <div style={{ width: '380px', height: '422.44px', opacity: 1, border: '1px solid #E5E5E5', borderRadius: '15px', overflow: 'hidden', backgroundColor: '#F5F5F5' }}>
-              <div className="p-12 text-white flex items-center" style={{ backgroundColor: '#D9AE89', height: '280px', borderTopLeftRadius: '15px', borderTopRightRadius: '15px' }}>
+            <div style={{ width: '380px', height: '422.44px', opacity: 1, border: '1px solid #E5E5E5', borderRadius: '15px', overflow: 'hidden', backgroundColor: '#F5F5F5', padding: '8px', display: 'flex', flexDirection: 'column' }}>
+              <div className="text-white flex items-center flex-1" style={{ backgroundColor: '#D9AE89', borderRadius: '12px', padding: '24px' }}>
                 <p style={{ fontFamily: 'Avenir Next, system-ui, sans-serif', fontWeight: 500, fontSize: '26px', lineHeight: '36.92px', letterSpacing: '0%' }}>
                   My favorites ❤️ from @Setapp Ulysses, CleanMyMac X, Paste, MindNode, Swift Publisher.
                 </p>
               </div>
-              <div className="px-8 py-8 flex items-center justify-between">
+              <div className="flex items-end justify-between" style={{ padding: '20px 16px' }}>
                 <div>
                   <p className="text-gray-900" style={{ fontFamily: 'Avenir Next, system-ui, sans-serif', fontWeight: 600, fontSize: '18px', lineHeight: '24px', marginBottom: '4px' }}>Mauricio Sanchez</p>
                   <p className="text-gray-600" style={{ fontFamily: 'Avenir Next, system-ui, sans-serif', fontWeight: 400, fontSize: '14px', lineHeight: '20px' }}>@m741s</p>
                 </div>
                 <div className="flex items-center justify-center">
-                  <Image src="/images/Frame (1).png" alt="Instagram" width={32} height={32} />
+                  <Image src="/images/SVG (1).png" alt="Instagram" width={20} height={20} />
                 </div>
               </div>
             </div>
 
             {/* Card 3 */}
-            <div style={{ width: '380px', height: '422.44px', opacity: 1, border: '1px solid #E5E5E5', borderRadius: '15px', overflow: 'hidden', backgroundColor: '#F5F5F5' }}>
-              <div className="p-12 text-white flex items-center" style={{ backgroundColor: '#765070', height: '280px', borderTopLeftRadius: '15px', borderTopRightRadius: '15px' }}>
+            <div style={{ width: '380px', height: '422.44px', opacity: 1, border: '1px solid #E5E5E5', borderRadius: '15px', overflow: 'hidden', backgroundColor: '#F5F5F5', padding: '8px', display: 'flex', flexDirection: 'column' }}>
+              <div className="text-white flex items-center flex-1" style={{ backgroundColor: '#765070', borderRadius: '12px', padding: '24px' }}>
                 <p style={{ fontFamily: 'Avenir Next, system-ui, sans-serif', fontWeight: 500, fontSize: '26px', lineHeight: '36.92px', letterSpacing: '0%' }}>
                   For those of you that wonder where I discover/get all the awesome apps for my Mac that I use, a lot of them are from Setapp!
                 </p>
               </div>
-              <div className="px-8 py-8 flex items-center justify-between">
+              <div className="flex items-end justify-between" style={{ padding: '20px 16px' }}>
                 <div>
                   <p className="text-gray-900" style={{ fontFamily: 'Avenir Next, system-ui, sans-serif', fontWeight: 600, fontSize: '18px', lineHeight: '24px', marginBottom: '4px' }}>Meredith Sweet</p>
                   <p className="text-gray-600" style={{ fontFamily: 'Avenir Next, system-ui, sans-serif', fontWeight: 400, fontSize: '14px', lineHeight: '20px' }}>@meredith.sweet.silberstein</p>
                 </div>
                 <div className="flex items-center justify-center">
-                  <Image src="/images/Item ⏵ Link - Setapp on Facebook ⏵ SVG.png" alt="Facebook" width={32} height={32} />
+                  <Image src="/images/Vector.png" alt="Facebook" width={12} height={12} />
                 </div>
               </div>
             </div>
