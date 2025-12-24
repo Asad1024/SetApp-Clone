@@ -18,7 +18,7 @@ export default function Testimonials() {
               </p>
               {/* Watch now button */}
               <button className="bg-white rounded-full flex items-center justify-center hover:bg-gray-100 transition" style={{ width: '74px', height: '74px', opacity: 1, borderRadius: '37px' }}>
-                <Image src="/images/button-watch-now.png" alt="Watch now" width={48} height={48} />
+                <Image src="/images/Button - Watch now.png" alt="Watch now" width={48} height={48} />
               </button>
             </div>
             

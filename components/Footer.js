@@ -44,7 +44,7 @@ export default function Footer() {
             <div>
                 <div className="flex flex-col" style={{ maxWidth: '760px' }}>
                   <div style={{ marginBottom: '70px', display: 'flex', alignItems: 'center', gap: '12px' }}>
-                    <Image src="/images/SVG.png" alt="Setapp Icon" width={20} height={20} />
+                    <Image src="/images/setapp-icon.png" alt="Setapp Icon" width={20} height={20} />
                     <span className="text-white font-semibold text-base">SETAPP</span>
                   </div>
 

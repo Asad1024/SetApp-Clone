@@ -8,7 +8,7 @@ export default function Navbar(){
           {/* Logo - left end */}
           <div className="flex items-center">
               <div style={{ width: '20px', height: '32px', opacity: 1 }}>
-              <Image src="/images/SVG.png" alt="logo" width={20} height={32} priority={false} />
+              <Image src="/images/setapp-icon.png" alt="logo" width={20} height={32} priority={false} />
             </div>
           </div>
 
